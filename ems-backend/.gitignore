@@ -1,0 +1,52 @@
+# General files
+HELP.md
+
+# Build output
+target/
+*.jar
+*.war
+*.ear
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Logs
+logs/
+*.log
+
+# Maven-specific files
+.mvn/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Environment variables
+*.properties
+.env
+
+# IDE-specific files
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
